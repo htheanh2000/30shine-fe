@@ -1,0 +1,1 @@
+export * as counterReducer from './counter'
