@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p {
+  font-family: 'Oswald';
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('MyFont'), url(assets/fonts/VNF-Oswald\ Regular.ttf) format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
